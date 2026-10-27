@@ -1,0 +1,2 @@
+# StoryofInfiniteEntertainmentandLaughter
+Stupid story
