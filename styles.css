@@ -1,0 +1,78 @@
+
+    button {
+      top: 5px;
+      right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+      color : rgb(193 145 56);
+    }
+body {
+      font-family: Georgia, serif;
+      line-height: 1.5;
+      color: rgb(193, 145, 56);
+      background-color: black;
+    }
+
+    .story-wrapper {
+      max-width: 900px;
+      margin: auto;
+      position: relative; /* important: anchors chapter labels */
+    }
+
+    .story {
+      font-size: 20px;
+      white-space: pre-line; /* keeps line breaks */
+    }
+
+    .chapters {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      border-radius: 5px;
+      color: rgb(193, 145, 56);
+    }
+
+    .chapters a {
+  display: block;        /* each link takes a full line */
+  margin-bottom: 6px;    /* optional spacing between links */
+  color: rgb(193, 145, 56);
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+    .chapter-label {
+      position: absolute;
+      left: -180px;
+      width: 100px;
+      text-align: right;
+      font-weight: bold;
+      color: rgb(193, 145, 56);
+    }
+#contentchange {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(193, 145, 56);
+    background-color: #211e1e;
+    border-radius: 4px;
+}
+.contentbutton {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(193, 145, 56);
+    border-radius: 4px;
+}
+::selection {
+  background: rgb(193, 145, 56);
+  color: black;
+}
+a {
+  color: rgb(193, 145, 56);
+}
